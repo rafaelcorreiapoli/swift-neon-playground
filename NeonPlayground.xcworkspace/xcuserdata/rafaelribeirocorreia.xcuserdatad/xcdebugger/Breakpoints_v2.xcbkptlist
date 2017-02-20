@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NeonPlayground/ViewController.swift"
+            timestampString = "509248947.010709"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NeonPlayground.ViewController.headerContainer.getter : __ObjC.UIView"
+                  moduleName = "NeonPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafaelribeirocorreia/xcode/NeonPlayground/NeonPlayground/ViewController.swift"
+                  timestampString = "509248367.353354"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NeonPlayground.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; NeonPlayground.ViewController"
+                  moduleName = "NeonPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafaelribeirocorreia/xcode/NeonPlayground/NeonPlayground/ViewController.swift"
+                  timestampString = "509248367.35492"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "151">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NeonPlayground.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;NeonPlayground.ViewController&gt;"
+                  moduleName = "NeonPlayground"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafaelribeirocorreia/xcode/NeonPlayground/NeonPlayground/ViewController.swift"
+                  timestampString = "509248367.356275"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "90">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

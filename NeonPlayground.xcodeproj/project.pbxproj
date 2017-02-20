@@ -14,6 +14,9 @@
 		203472061E5A5314006E4910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203472041E5A5314006E4910 /* LaunchScreen.storyboard */; };
 		203472111E5A5314006E4910 /* NeonPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203472101E5A5314006E4910 /* NeonPlaygroundTests.swift */; };
 		2034721C1E5A5314006E4910 /* NeonPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2034721B1E5A5314006E4910 /* NeonPlaygroundUITests.swift */; };
+		6D8BAC9AFC9CE445F12928F4 /* Pods_NeonPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A5DE456354EDBE793D573C /* Pods_NeonPlaygroundTests.framework */; };
+		9E9421DE9001EE7D0EB4C34B /* Pods_NeonPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBB940FC6FD5C41215DD74F /* Pods_NeonPlayground.framework */; };
+		C5E4F6E59146545097C888E9 /* Pods_NeonPlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2E3DE6C2368CA7F648992D /* Pods_NeonPlaygroundUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		203472171E5A5314006E4910 /* NeonPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeonPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2034721B1E5A5314006E4910 /* NeonPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonPlaygroundUITests.swift; sourceTree = "<group>"; };
 		2034721D1E5A5314006E4910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2118DE8840A94B1F92184587 /* Pods-NeonPlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeonPlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeonPlaygroundUITests/Pods-NeonPlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		362737977F5BF0B65CF19583 /* Pods-NeonPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeonPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeonPlayground/Pods-NeonPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		57DE3096082A2A10E4D079BF /* Pods-NeonPlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeonPlaygroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeonPlaygroundUITests/Pods-NeonPlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BBB940FC6FD5C41215DD74F /* Pods_NeonPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeonPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A5DE456354EDBE793D573C /* Pods_NeonPlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeonPlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		657F975FB966B852B494962F /* Pods-NeonPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeonPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeonPlayground/Pods-NeonPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		AF6A342C07DEE83B409DFF9D /* Pods-NeonPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeonPlaygroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeonPlaygroundTests/Pods-NeonPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFB867F296E1A279B7E668C2 /* Pods-NeonPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeonPlaygroundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeonPlaygroundTests/Pods-NeonPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2E3DE6C2368CA7F648992D /* Pods_NeonPlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeonPlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9421DE9001EE7D0EB4C34B /* Pods_NeonPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D8BAC9AFC9CE445F12928F4 /* Pods_NeonPlaygroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E4F6E59146545097C888E9 /* Pods_NeonPlaygroundUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DC8CC6F763DA5D4C960DF23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				657F975FB966B852B494962F /* Pods-NeonPlayground.debug.xcconfig */,
+				362737977F5BF0B65CF19583 /* Pods-NeonPlayground.release.xcconfig */,
+				AFB867F296E1A279B7E668C2 /* Pods-NeonPlaygroundTests.debug.xcconfig */,
+				AF6A342C07DEE83B409DFF9D /* Pods-NeonPlaygroundTests.release.xcconfig */,
+				2118DE8840A94B1F92184587 /* Pods-NeonPlaygroundUITests.debug.xcconfig */,
+				57DE3096082A2A10E4D079BF /* Pods-NeonPlaygroundUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		203471EF1E5A5314006E4910 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				2034720F1E5A5314006E4910 /* NeonPlaygroundTests */,
 				2034721A1E5A5314006E4910 /* NeonPlaygroundUITests */,
 				203471F91E5A5314006E4910 /* Products */,
+				0DC8CC6F763DA5D4C960DF23 /* Pods */,
+				89CACDAB4ECECFB50ED032F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = NeonPlaygroundUITests;
 			sourceTree = "<group>";
 		};
+		89CACDAB4ECECFB50ED032F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BBB940FC6FD5C41215DD74F /* Pods_NeonPlayground.framework */,
+				63A5DE456354EDBE793D573C /* Pods_NeonPlaygroundTests.framework */,
+				DB2E3DE6C2368CA7F648992D /* Pods_NeonPlaygroundUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 203472201E5A5314006E4910 /* Build configuration list for PBXNativeTarget "NeonPlayground" */;
 			buildPhases = (
+				81DCDB40B3AD3FD1572A034C /* [CP] Check Pods Manifest.lock */,
 				203471F41E5A5314006E4910 /* Sources */,
 				203471F51E5A5314006E4910 /* Frameworks */,
 				203471F61E5A5314006E4910 /* Resources */,
+				D22771B5C3DE11BBEB77E1E9 /* [CP] Embed Pods Frameworks */,
+				559851B54225CEBD42EF037F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 203472231E5A5314006E4910 /* Build configuration list for PBXNativeTarget "NeonPlaygroundTests" */;
 			buildPhases = (
+				9285510F4EA2F88C066127DC /* [CP] Check Pods Manifest.lock */,
 				203472081E5A5314006E4910 /* Sources */,
 				203472091E5A5314006E4910 /* Frameworks */,
 				2034720A1E5A5314006E4910 /* Resources */,
+				AFA7DFCD472F27988EDB771E /* [CP] Embed Pods Frameworks */,
+				465A427953AB0B4A1EAB130E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 203472261E5A5314006E4910 /* Build configuration list for PBXNativeTarget "NeonPlaygroundUITests" */;
 			buildPhases = (
+				BEDCA2658511EBC4349A5C5F /* [CP] Check Pods Manifest.lock */,
 				203472131E5A5314006E4910 /* Sources */,
 				203472141E5A5314006E4910 /* Frameworks */,
 				203472151E5A5314006E4910 /* Resources */,
+				B14244FB1F107B2D8A2E149F /* [CP] Embed Pods Frameworks */,
+				8F8CF48016DCCDDB2E05847C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		465A427953AB0B4A1EAB130E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeonPlaygroundTests/Pods-NeonPlaygroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		559851B54225CEBD42EF037F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeonPlayground/Pods-NeonPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81DCDB40B3AD3FD1572A034C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F8CF48016DCCDDB2E05847C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeonPlaygroundUITests/Pods-NeonPlaygroundUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9285510F4EA2F88C066127DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA7DFCD472F27988EDB771E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeonPlaygroundTests/Pods-NeonPlaygroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B14244FB1F107B2D8A2E149F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeonPlaygroundUITests/Pods-NeonPlaygroundUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDCA2658511EBC4349A5C5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D22771B5C3DE11BBEB77E1E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeonPlayground/Pods-NeonPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		203471F41E5A5314006E4910 /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		203472211E5A5314006E4910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657F975FB966B852B494962F /* Pods-NeonPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WRM4UPAZ5R;
@@ -426,6 +614,7 @@
 		};
 		203472221E5A5314006E4910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362737977F5BF0B65CF19583 /* Pods-NeonPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WRM4UPAZ5R;
@@ -439,6 +628,7 @@
 		};
 		203472241E5A5314006E4910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB867F296E1A279B7E668C2 /* Pods-NeonPlaygroundTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		203472251E5A5314006E4910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6A342C07DEE83B409DFF9D /* Pods-NeonPlaygroundTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		203472271E5A5314006E4910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2118DE8840A94B1F92184587 /* Pods-NeonPlaygroundUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WRM4UPAZ5R;
@@ -483,6 +675,7 @@
 		};
 		203472281E5A5314006E4910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57DE3096082A2A10E4D079BF /* Pods-NeonPlaygroundUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WRM4UPAZ5R;

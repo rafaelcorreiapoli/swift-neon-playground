@@ -1,0 +1,28 @@
+PODS:
+  - Iconic (1.2)
+  - Kingfisher (3.4.0)
+  - Neon (0.4.0)
+
+DEPENDENCIES:
+  - Iconic (from `https://github.com/dzenbot/Iconic.git`, tag `1.3`)
+  - Kingfisher
+  - Neon
+
+EXTERNAL SOURCES:
+  Iconic:
+    :git: https://github.com/dzenbot/Iconic.git
+    :tag: '1.3'
+
+CHECKOUT OPTIONS:
+  Iconic:
+    :git: https://github.com/dzenbot/Iconic.git
+    :tag: '1.3'
+
+SPEC CHECKSUMS:
+  Iconic: 03d941cfad0c499ba0cde153cfbea6de6487f936
+  Kingfisher: 5690cfb3d1bddf3a98d679a3a34d0b7294974ed2
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+
+PODFILE CHECKSUM: 85b123dc6927ce4d3daea410ba3f1913479335bd
+
+COCOAPODS: 1.1.1
